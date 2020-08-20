@@ -16,3 +16,5 @@ predictions = clf.predict(X_test)
 precision = precision_score(y_test, predictions, average='macro')
 
 print(precision)
+print('That all')
+
